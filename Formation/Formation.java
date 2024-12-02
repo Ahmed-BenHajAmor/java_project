@@ -19,10 +19,10 @@ public class Formation {
     public void setDescription(String description) {
         this.description = description;
     }
-    public Object getFormateur() {
+    public Formateur getFormateur() {
         return formateur;
     }
-    public void setFormateur(Object formateur) {
+    public void setFormateur(Formateur formateur) {
         this.formateur = formateur;
     }
     public double getPrix() {
