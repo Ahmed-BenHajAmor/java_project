@@ -1,9 +1,11 @@
 package Formation;
 
+import Formateur.Formateur;
+
 public class Formation {
     String titre;
     String description;
-    Object formateur;
+    Formateur formateur;
     double prix;
     public String getTitre() {
         return titre;
@@ -29,7 +31,7 @@ public class Formation {
     public void setPrix(double prix) {
         this.prix = prix;
     }
-    public Formation(String titre, String description, Object formateur, double prix) {
+    public Formation(String titre, String description, Formateur formateur, double prix) {
         this.titre = titre;
         this.description = description;
         this.formateur = formateur;
