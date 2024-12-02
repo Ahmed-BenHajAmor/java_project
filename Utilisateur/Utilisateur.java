@@ -22,7 +22,7 @@ public class Utilisateur {
     public void setMotDePasse(String motDePasse) {
         this.motDePasse = motDePasse;
     }
-    Utilisateur(String nom,String email,String motDePasse){
+    public Utilisateur(String nom,String email,String motDePasse){
         setNom(nom);
         setEmail(email);
         setMotDePasse(motDePasse);
