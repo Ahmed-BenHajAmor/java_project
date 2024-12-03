@@ -3,6 +3,7 @@ package Etudiant;
 import Utilisateur.Utilisateur;
 import java.util.Vector;
 
+import Exceptions.FormationDejaInscriteException;
 import Formation.Formation;
 
 public class Etudiant extends Utilisateur {
@@ -14,6 +15,13 @@ public class Etudiant extends Utilisateur {
     }
    
     public void sinscrireFormation(Formation formation){
-        listFormation.add(formation);
+        try {
+            if (listFormation.contains(formation)){
+                throw new FormationDejaInscriteException();
+            }
+            listFormation.add(formation);
+        } catch (FormationDejaInscriteException e){
+            System.out.println(e);
+        }
     }
 }
