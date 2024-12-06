@@ -1,10 +1,10 @@
-package Etudiant;
+package projet.Etudiant;
 
-import Utilisateur.Utilisateur;
 import java.util.Vector;
 
-import Exceptions.FormationDejaInscriteException;
-import Formation.Formation;
+import projet.Exceptions.FormationDejaInscriteException;
+import projet.Formation.Formation;
+import projet.Utilisateur.Utilisateur;
 
 public class Etudiant extends Utilisateur {
     Vector<Formation> listFormation;

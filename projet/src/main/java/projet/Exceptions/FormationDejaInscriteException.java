@@ -1,4 +1,4 @@
-package Exceptions;
+package projet.Exceptions;
 
 public class FormationDejaInscriteException extends Exception {
     public String toString(){

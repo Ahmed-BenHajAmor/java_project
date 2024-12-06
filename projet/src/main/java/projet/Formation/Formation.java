@@ -1,6 +1,6 @@
-package Formation;
+package projet.Formation;
 
-import Formateur.Formateur;
+import projet.Formateur.Formateur;
 
 public class Formation {
     String titre;

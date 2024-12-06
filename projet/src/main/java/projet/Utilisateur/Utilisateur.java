@@ -1,4 +1,4 @@
-package Utilisateur;
+package projet.Utilisateur;
 
 public class Utilisateur {
     String nom;

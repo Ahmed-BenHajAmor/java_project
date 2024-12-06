@@ -1,8 +1,9 @@
-package Formateur;
+package projet.Formateur;
 
 import java.util.Vector;
-import Formation.Formation;
-import Utilisateur.Utilisateur;
+
+import projet.Formation.Formation;
+import projet.Utilisateur.Utilisateur;
 
 public class Formateur extends Utilisateur {
     Vector<Formation> formations;
