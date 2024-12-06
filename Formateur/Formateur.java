@@ -1,7 +1,6 @@
 package Formateur;
 
 import java.util.Vector;
-
 import Formation.Formation;
 import Utilisateur.Utilisateur;
 
